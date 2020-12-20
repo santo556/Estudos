@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+    <style>
+        body {
+            background-color: rgb(172, 165, 165);
+            color: rgb(255, 238, 0);
+            font: normal 19pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no seu próprio servidor.</p>
+    <hr>
+    <video width="500" poster="imagens/limoes-capa.png" controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+            <source src="midia/meu-video.m4v" type="video/m4v">
+                <source src="midia/meu-video.ogv" type="video/ogv">
+                    <p>Seu navegador não tem compatibilidade com reprodução de video.</p>
+    </video>
+</body>
+</html>
