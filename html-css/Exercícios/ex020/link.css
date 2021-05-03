@@ -1,0 +1,45 @@
+/*
+    #  = id
+    .  = class
+    :  = pseudo-class
+    :: = pseudo-element
+    >  = clilden
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(255, 255, 0);
+}
+
+.especial {
+    background-color: rgb(81, 146, 231);
+}
+
+.especial::before {
+    content: '→ ';
+}
+
+.especial::after {
+    content: ' ←';
+}
