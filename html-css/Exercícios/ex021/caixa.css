@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+}
+
+section#informacao {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+nav {
+    background-color: rgb(117, 117, 117);
+    padding: 2px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+article {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+article > aside {
+    background-color: rgb(163, 163, 163);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.01px;
+    margin: 0px;
+}
