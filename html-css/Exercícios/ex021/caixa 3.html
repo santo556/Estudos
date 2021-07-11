@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda personalizada</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+        h1 {
+            border: 17px solid transparent;
+            padding: 10px;
+            /*border-image-source: url('borda.png');
+            border-image-slice: 37;
+            border-image-repeat: repeat;*/
+            border-image: url('borda.png') 27 repeat;
+            text-align: center;
+            background: rgb(255, 255, 255);
+            font-family: cursive, sans-serif;
+            color: rgb(0, 0, 0);
+            font-size: 2em;
+        }
+        p {
+            border: 12px solid blue;
+            padding: 10px;
+            border-image: url('borda.png') 27 stretch;
+            text-align: justify;
+            margin: auto;
+            background: gray;
+            font-family: cursive, sans-serif;
+            color: white;
+            font-size: 1em;
+        }
+        footer > p {
+            padding: 12px;
+            margin: 90px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus debitis nobis fuga vero minus voluptates aut veritatis, esse quisquam saepe aperiam nostrum modi recusandae quasi earum reprehenderit optio officia amet.</p>
+    <footer>
+        <p>Desenvolvido po Y-17</p>
+    </footer>
+</body>
+</html>
